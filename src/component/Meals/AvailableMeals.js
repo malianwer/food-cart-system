@@ -11,14 +11,14 @@ const AvailableMeals = () => {
   const List = ({ data = [] }) => {
     return (
       <>
-        {data.map((item) => {
+        {data.map((item, index) => {
           return (
-            <>
+            <div key={index}>
               <div className={classes.name}> {item.name}</div>
               <div className={classes.description}> {item.description}</div>
               <div className={classes.price}> ${item.price}</div>
               <MealItemsFrom itemToAdd={item} />
-            </>
+            </div>
           );
         })}
       </>

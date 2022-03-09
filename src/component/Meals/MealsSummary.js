@@ -13,10 +13,10 @@ const MealsSummary = () => {
         </p>
         <p>Enjoy a delicious lunch or dinner at home.</p>
 
-        <Link exact to="/signup">
+        <Link to="/signup">
           <button className={classes["button-login"]}>Sign up</button>
         </Link>
-        <Link exact to="/login">
+        <Link to="/login">
           <button className={classes["button-login"]}>Login</button>
         </Link>
       </section>
