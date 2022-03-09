@@ -6,6 +6,24 @@
   height: 40vmin;
   pointer-events: none;
 }
+.cart-button {
+  background-color: #8a2b06 !important;
+  border: 1px solid #8a2b06 !important;
+  color: white !important;
+  border-radius: 3px !important;
+  font-weight: bold !important;
+  padding-top: 1px !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  padding-bottom: 2px !important;
+}
+.delete-button {
+  background-color: #8a2b06;
+  color: white;
+  border: 1px solid #8a2b06;
+  padding: 4px;
+  font-size: 11px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
